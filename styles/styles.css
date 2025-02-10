@@ -660,7 +660,68 @@ margin-top: 1em;
 footer{
   height: 40vh;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5em 5em 25px;
+  color: #fff;
 }
+
+footer p{
+  margin-top: auto;
+  font-size: 14px;
+}
+
+footer p a{
+  color: #fff;
+}
+
+.foot-menu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.foot-menu .foot-logo img{
+  width: 25rem;
+
+}
+.foot-menu a{
+  text-decoration: none;
+
+}
+.foot-menu .foot-cta ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  
+}
+.foot-menu .foot-cta ul li{
+  padding: 9px 25px;
+  background-color: #e6012a;
+margin-left: 2em;
+align-items: center;
+border-radius: 50px;
+cursor: pointer;
+transition: all ease 0.5s;
+}
+
+.foot-menu .foot-cta ul li:hover {
+  background-color: #c40528;
+}
+.foot-menu .foot-cta ul li a{
+text-decoration: none;
+color: #fff;
+
+}
+
+.foot-menu .foot-logo{
+
+  margin-right: auto;
+}
+
 
 /* animate */
 
@@ -917,6 +978,21 @@ footer{
 
 
   }
+  @media only screen and (max-width: 1150px) {
+  .foot-menu{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+  .foot-menu .foot-logo{
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+}
 
 
   @media only screen and (max-width: 1100px) {
@@ -1110,6 +1186,50 @@ footer{
       left: 300px;
     }
   }
+
+
+  @media (max-width: 730px) {
+    footer{
+      padding: 2em 25px;
+    }
+  }
+  @media (max-width: 700px) {
+    footer p{
+      font-size: 14px;
+    }
+
+    .foot-menu{
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+     }
+    .foot-menu .foot-logo{
+      margin-left: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 25px;
+    } 
+    .foot-menu .foot-logo img{
+      width: 15em;
+    } 
+    .foot-menu .foot-cta ul{
+      width: 100%;
+       justify-content: center;
+       gap: 10px;
+    }
+    .foot-menu .foot-cta ul li{
+      padding: 9px 25px;
+      background-color: #e6012a;
+    margin-left: 0;
+    }
+
+    
+  }
+
+
   @media (max-width: 767px) {
 
     .animate-up {
@@ -1192,6 +1312,16 @@ footer{
 
   }
 
+  @media (max-width: 550px) {
+  .foot-menu .foot-cta ul{
+    flex-direction: column;
+  }
+  .foot-menu .foot-cta ul li{
+    text-align: center;
+  }
+
+  
+}
 
   @media (max-width: 510px) {
 
