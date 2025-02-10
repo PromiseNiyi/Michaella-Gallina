@@ -1026,6 +1026,16 @@ color: #fff;
       left: 150px;
     }
 
+    .section6{
+      min-height: 50vh;
+      height: auto;
+    }
+
+    footer{
+      min-height: 40vh;
+      height: auto;
+    }
+
 
   }
 
@@ -1103,6 +1113,10 @@ color: #fff;
 
     }
     .section2{
+      min-height: 40vh;
+      height: auto;
+    }
+    .section3{
       min-height: 40vh;
       height: auto;
     }
@@ -1194,6 +1208,9 @@ color: #fff;
     }
   }
   @media (max-width: 700px) {
+    footer{
+      padding: 3em 25px 2em;
+    }
     footer p{
       font-size: 14px;
     }
@@ -1236,6 +1253,10 @@ color: #fff;
       opacity: 1;
       transform: none;
     }
+    footer{
+      min-height: 40vh;
+      height: auto;
+    }
   }
 
   @media (max-width:649px) {
@@ -1256,6 +1277,8 @@ color: #fff;
       flex-direction: column;
       gap: 50px;
     } 
+
+
 
   }
 
