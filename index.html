@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MICHAELLA GALLINA</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/logo/Michaella.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/logo/Michaella.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/scroll-section.css">
+        <link rel="stylesheet" href="styles/carousel.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+
+        
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="index.html"><img src="images/MG_wordmark_black.png" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="mystory.html">My Story</a></li>
+                    <li><a href="#">Build Your F**K You Fund</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </nav>
+            <a class="cta cta-main" href="#">Let's Talk</a>
+            <p class="menu-btn " id="menuBtn">☰</p>
+        </header>
+        <div class="overlay" id="overlay">
+            <a class="close-btn" id="closeBtn">&times;</a>
+            <div class="overlay__content">
+                <a href="mystory.html">My Story</a>
+                <a href="#">Build Your F**K You Fund</a>
+                <a href="#">Services</a>
+                <a class="cta cta-main smallMenu" href="#">Let's Talk</a>
+            </div>
+        </div>
+
+
+
+
+        <section class="main">
+            <div class="main-writeup animate">
+                <img src="images/MG_wordmark_white.png" alt="" class="main-logo">
+                <div class="main-content">
+                    <p> I am a former Wall Street investor
+                        and Chief Financial Officer turned speaker,
+                        coach, and author to help you find yourself
+                        through financial freedom.
+                    </p>
+                </div>
+
+            </div>
+            <div class="hero-image-section animate">
+                <img src="images/headshot 1.png" alt="" class="hero-image">
+            </div>
+        </section>
+        <section class="section2">
+            <img src="images/stylish line.png" alt="highlight">
+            <h1 class="animate-on-scroll">Your Financial Bestie! <br>Spoiler alert: this is not about money.</h1>
+            <p class="animate-on-scroll">It's about creating the life that your heart desires, full of meaning and purpose.</p>
+        <a href="#" class="animate-on-scroll">Let me show you how</a>
+        </section>
+
+        <section class="section3">
+            <div class="carousel">
+                <div class="carousel-track">
+                    <img src="logo/Forbes.png" alt="Logo 1">
+                    <img src="logo/H&R_Block_icon.png" alt="Logo 2">
+                    <img src="logo/IR.png" alt="Logo 3">
+                    <img src="logo/S&P.png" alt="Logo 4">
+                    <img src="logo/Yahoo!_Finance_logo_2021.png" alt="Logo 5">
+                    
+                    <!-- Duplicate for seamless effect -->
+                    <img src="logo/Forbes.png" alt="Logo 1">
+                    <img src="logo/H&R_Block_icon.png" alt="Logo 2">
+                    <img src="logo/IR.png" alt="Logo 3">
+                    <img src="logo/S&P.png" alt="Logo 4">
+                    <img src="logo/Yahoo!_Finance_logo_2021.png" alt="Logo 5">
+                    
+               
+                </div>
+            </div>
+
+        </section>
+        
+        <section class="section4">
+            <div class="writeup4 animate-up">
+                <h1>
+                    My Journey
+                </h1>
+                <p>
+                    I grew up humbly in a rural town with 4x the national average violent crime rate, 
+                    and a teen pregnancy rating that was 50% greater than the state’s average. 
+                    I became financially independent at 18, powered through Wall Street roles in 
+                    investment banking and as a stock picker, did corporate turnarounds, and 
+                    became the Chief Financial Officer for a $100+ fintech company at the age of 36. 
+                </p>
+                <br>
+                <br>
+                <p>
+                    But with my strategy to build a “F**k You Fund, you’ll be afforded empowerment, 
+                    choice, purpose, and opportunity. In other words, you will be able to follow your dreams 
+                    and find yourself through financial freedom.
+                </p>
+                <br>
+                <br>
+                <p>
+                    “The best part is, with my help, anyone—regardless of age, income level, 
+                    or life status—can pivot toward their most desired path.
+                </p>
+                <a href="#">Red more</a>
+            </div>
+
+        </section>
+
+        <section class="section5">
+            <div class="writeup5 animate-up">
+                <img src="images/stylish line.png" alt="highlight">
+                <h2>So, what is a F**k You Fund?</h2>
+                <p>Unlike F**k You money, which can take a lifetime to achieve, 
+                    if ever, and is based on retiring, <br>
+                   <span>
+                    a F**K You Fund is accessible to every single woman so you can take 
+                    control and pivot to <br>the path you’ve always wanted, in three simple steps.
+                   </span> 
+                </p> 
+                <a href="#">Let me show you how</a>  
+            </div>
+
+        </section>
+
+        <section class="section6">
+            <div class="writeup6 animate-on-scroll">
+                <h2>Watch Michaella <br>
+                <span>In Action</span>
+                </h2>
+            </div>
+            <div class="video animate-top-down">
+
+            </div>
+        </section>
+
+        <footer>
+
+        </footer>
+
+        <!-- Custom Scrollbar (Overlay) -->
+        <div id="custom-scrollbar">
+            <div id="custom-thumb"></div>
+        </div>
+        
+
+
+
+        <script type="text/javascript" src="scripts/mainAnimate.js"></script>
+        <script type="text/javascript" src="scripts/animation.js"></script>
+        <script type="text/javascript" src="scripts/mobile.js"></script>
+        <script type="text/javascript" src="scripts/scroll.js"></script>
+   
+        <script>
+            var copy = document.querySelector(".logos-slide").cloneNode(true);
+            document.querySelector(".logos").appendChild(copy);
+        </script>
+        
+   
+    </body>
+</html>

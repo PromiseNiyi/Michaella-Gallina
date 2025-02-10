@@ -1,0 +1,712 @@
+/* /////////////___________font face////////////___________ */
+@font-face {
+  font-family: 'Remixa';
+  src: url('font/Remixa-Black.woff2') format('woff2'),
+      url('font/Remixa-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remixa';
+  src: url('font/Remixa-Light.woff2') format('woff2'),
+      url('font/Remixa-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remixa';
+  src: url('font/Remixa-Bold.woff2') format('woff2'),
+      url('font/Remixa-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remixa';
+  src: url('font/Remixa-Medium.woff2') format('woff2'),
+      url('font/Remixa-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remixa';
+  src: url('font/Remixa-Regular.woff2') format('woff2'),
+      url('font/Remixa-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remixa';
+  src: url('font/Remixa-Semibold.woff2') format('woff2'),
+      url('font/Remixa-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* ///////////////////Secondary font/////////////////////// */
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-BlackItalic.woff2') format('woff2'),
+      url('font2/MazzardH-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-Bold.woff2') format('woff2'),
+      url('font2/MazzardH-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-ExtraBold.woff2') format('woff2'),
+      url('font2/MazzardH-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-BoldItalic.woff2') format('woff2'),
+      url('font2/MazzardH-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-Black.woff2') format('woff2'),
+      url('font2/MazzardH-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-Italic.woff2') format('woff2'),
+      url('font2/MazzardH-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-ExtraLight.woff2') format('woff2'),
+      url('font2/MazzardH-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-ExtraBoldItalic.woff2') format('woff2'),
+      url('font2/MazzardH-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-ExtraLightItalic.woff2') format('woff2'),
+      url('font2/MazzardH-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-Light.woff2') format('woff2'),
+      url('font2/MazzardH-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-LightItalic.woff2') format('woff2'),
+      url('font2/MazzardH-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-SemiBoldItalic.woff2') format('woff2'),
+      url('font2/MazzardH-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-SemiBold.woff2') format('woff2'),
+      url('font2/MazzardH-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-Thin.woff2') format('woff2'),
+      url('font2/MazzardH-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-MediumItalic.woff2') format('woff2'),
+      url('font2/MazzardH-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-Medium.woff2') format('woff2'),
+      url('font2/MazzardH-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-Regular.woff2') format('woff2'),
+      url('font2/MazzardH-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('font2/MazzardH-ThinItalic.woff2') format('woff2'),
+      url('font2/MazzardH-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+/* /////////////___________font face////////////___________ */;
+
+p{
+    font-family: 'Mazzard H';
+    font-size: 16pt;
+}
+h1,h2,h3{
+    font-family: 'Remixa';
+}
+section{
+    overflow-x: hidden;
+}
+.level1{
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #e6012a;
+    color: #e8e2c5;
+    background-image: url(/images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+.level1 .Lcontent1{
+  margin-left: 5em;
+}
+
+.level1 h1{
+    font-size: 8rem;
+    font-weight: 400;
+}
+.level1 h1 span{
+font-weight: bolder;
+}
+.level1 p{
+font-size: 16pt;
+width: 60%;
+}
+
+.level2{
+    height: 100vh;
+    background-color: #fff;
+    background-image: url(/images/headshot\ 3.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    /* background-attachment: fixed; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    padding: 25px 25px 25px 7%;
+}
+.Lcontent2{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+}
+.level2 h2, .level2 h3{
+    color: #e6012a;
+    font-size: 4em;
+}
+
+.level2 h2{
+    font-weight: 400;
+}
+
+.level2 h3 {
+margin-bottom: 1em;
+}
+
+.Lcontent2 .p-space{
+    margin-top: 2em;
+}
+
+.level3{
+    /* min-height: 100vh;
+    height: auto; */
+    height: 265vh;
+    overflow-y: hidden;
+    background-color: #e6012a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.level3 p{
+font-family: 'Mazzard H';
+text-align: justify;
+}
+.Lcontent3{
+/* min-height: 50vh;
+height: auto; */
+padding: 10% 7%;
+}
+.Lcontent3-1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url(/images/3.png);
+    height: 150vh;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 7% 7%;
+    
+}
+
+.level3 h2, .level3 h3{
+    color: #e6012a;
+    font-size: 5.5em;
+    text-align: left;
+}
+.level3 h2{
+    font-weight: 400;
+}
+.Lcontent3-2{
+min-height: 115vh;
+height: auto;
+color: #fff;
+}
+
+.Lcontent3-1 .heading{
+    width:30%;
+    /* height: 100%; */
+    display: block;
+    justify-content: left;
+    text-align: left;
+}
+
+.Lcontent3-1 .writesup{
+    width:70%;
+}
+
+.Lcontent3-1 .writesup .bold{
+    font-weight: 600;
+    margin-top: 1em;
+}
+.Lcontent3 .p-space{
+    margin-top: 2em;
+}
+
+
+
+.inside{
+    height: 100%;
+    width: 70%;
+}
+.inside span{
+    font-weight: 600;
+    font-family: 'Mazzard H';
+}
+
+.level3 img{
+    width: 35em;
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+}
+.level4{
+    height: 50vh;
+    background-image: url(/images/5.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #d2c4bb;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: justify;
+    padding: 5em 7em;
+}
+
+.level4 p{
+    width: 1000px;
+}
+.level5{
+    height: 100vh;
+    background-image: url(/images/6.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f7f964;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 7em;
+}
+
+.level5 .sub-content{
+    height: 60%;
+    width: 100%;
+}
+
+.level5 .sub-content p{
+width: 60%;
+}
+
+.level5 .sub-content .bold{
+    font-weight: 600;
+}
+.level5 .subhead{
+text-align: center;
+
+}
+.level5 h2, .level5 h3{
+    color: #e6012a;
+    font-size: 4em;
+}
+.level5 h2{
+    font-weight: 400;
+}
+
+
+.level6{
+    height: 40vh;
+    color: #fff;
+    background-color: #e6012a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.level6 h2{
+    font-size: 4em;
+    text-align: center;
+}
+.level6 p{
+    text-align: center;
+}
+
+.level6 a{
+    color: #000;
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    margin-top: 2em;
+    font-weight: 14pt;
+    transition: all 0.5s ease;
+}
+
+.level6 a:hover{
+    background-color: #e2e2e2;
+}
+
+
+
+
+
+
+
+/* //////////////------------------Responsiveness---------------- */
+@media only screen and (max-width: 1200px) {
+    .Lcontent2{
+        width: 100%;
+    } 
+
+}
+@media only screen and (max-width: 1000px) {
+.level1{
+    justify-content: center;
+    }
+.level1 h1{
+    font-size: 6rem;
+}
+
+
+}
+@media only screen and (max-width: 1500px) {
+.level3 img{
+    right: -200px;
+}
+}
+
+@media only screen and (max-width: 950px) {
+
+    .animate-on-scroll,
+    .animate-top-down,
+    .animate-up {
+      opacity: 1;
+      transform: none;
+    }
+
+    .level1{
+        min-height: 90vh;
+        height: auto;
+    } 
+    .level2{
+        min-height: 100vh;
+        height: auto;
+    } 
+    .level3{min-height: 150vh;
+    height: auto;
+    }
+    .Lcontent3-1{
+        height: auto;
+    }
+    .level3 img{
+        width: 35em;
+        position: absolute;
+        right: -250px;
+        bottom: 0;
+    }
+    .level4{
+        min-height: 50vh;
+        height: auto;
+        justify-content: center;
+        background: 
+        linear-gradient(#ffffffa4, #ffffffbd), /* overlay with 50% black */
+        url('/images/5.png') no-repeat center center;
+        background-size: cover;
+        background-size: cover;
+    }
+
+    .level5{
+       min-height: 100vh;
+       height: auto;
+       justify-content: center;
+       background: 
+       linear-gradient(#f6f964a1, #f6f964b2), /* overlay with 50% black */
+       url('/images/headshot\ 7.png') no-repeat center center;
+       background-size: cover;
+    }
+
+    .level5 .sub-content p{
+    width: 100%;
+    }
+    .level6{
+        min-height: 40vh;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .level1 h1{
+        font-size: 4rem;
+    }
+    .level1 p{
+
+        width: 80%;
+        }
+
+.level2{
+    justify-content: center;
+    background: 
+    linear-gradient(#ffffffa4, #ffffffbd), /* overlay with 50% black */
+    url('/images/headshot\ 3.png') no-repeat center center;
+    background-size: cover;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.level1{
+    justify-content: center;
+    background: 
+    linear-gradient(#e6012b1f, #ec1a406c), /* overlay with 50% black */
+    url('/images/1.png') no-repeat center center;
+    background-size: cover;
+    background-position: top  left;
+    justify-content: center;
+}
+    .level1 .Lcontent1{
+  margin-left: 0;
+}
+
+.level1 p{
+    width: 100%;
+    }
+
+
+    
+
+
+.Lcontent2{
+    width: 100%;
+}
+.level2 h2, .level2 h3{
+    color: #e6012a;
+    font-size: 3em;
+}
+
+.Lcontent3-1{
+    flex-direction: column;
+    background: 
+    linear-gradient(#f6f85da4, #ffffffbd), /* overlay with 50% black */
+    url('/images/3.png') no-repeat center center;
+    background-size: cover;
+}
+
+.Lcontent3-1 .heading, .Lcontent3-1 .writesup{
+width: 100%;
+}
+
+.level3 h2, .level3 h3{
+     font-size: 3em;
+    
+}
+.Lcontent3-1 .heading{
+    margin-bottom: 2em;
+}
+.inside{
+    width: 100%;
+    z-index: 999;
+}
+
+.Lcontent3-2{
+    background: 
+    linear-gradient(#e6012ba6, #e6012a), /* overlay with 50% black */
+    url('/images/headshot\ 5.png') no-repeat center center;
+    background-size: cover;
+}
+.level3 img{
+    width: 35em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index: 0;
+    display: none;
+}
+
+.level4{
+    padding: 2em 3em;
+    background: 
+    linear-gradient(#ffffffa6, #ffffff), /* overlay with 50% black */
+    url('/images/5.png') no-repeat center left;
+    background-size: cover;
+}
+
+.level5 h2, .level5 h3{
+    font-size: 2.5em;
+}
+.level5 .subhead{
+    margin-bottom: 2em;
+}
+.level5 .sub-content p{
+    width: 100%;
+    }
+.level5{
+     min-height: 100vh;
+    height: auto;
+    justify-content: center;
+    background:     
+    linear-gradient(#f6f964c7, #f6f9649f), /* overlay with 50% black */
+    url('/images/headshot\ 7.png') no-repeat center left;
+    background-size: cover;
+    padding: 2em;
+}
+.level6 h2{
+    font-size: 3em;
+}
+}
+@media (max-width: 767px) {
+    .animate-on-scroll,
+    .animate-top-down,
+    .animate-up {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+
+@media only screen and (max-width: 450px) {
+.level1 h1{
+    font-size: 3rem;
+}
+.level3{
+    min-height: 200vh;
+    height: auto;
+}
+.Lcontent3-1{
+    height: auto;
+}
+.level6{
+
+    padding: 25px 10px;
+}
+}
