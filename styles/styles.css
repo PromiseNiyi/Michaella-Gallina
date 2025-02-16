@@ -790,7 +790,7 @@ color: #fff;
 
 
     /*------------------------------------------- Responsive adjustments ------------------------------------------------------------------------------*/
-    @media only screen and (width: 3840px) {
+    @media only screen and (max-width: 3840px) {
       .hero-image-section img{
         max-width: 1000px;
         width: auto;
@@ -800,7 +800,7 @@ color: #fff;
         max-width: 350px;
         width: auto;
         position: absolute;
-        top: 220px;
+        top: 300px;
         left: 230px;
       }
 
@@ -808,11 +808,11 @@ color: #fff;
         max-width: 370px;
         width: auto;
         position: absolute;
-        top: 250px;
+        top: 350px;
         left: 280px;
       }
     }
-    @media only screen and (width: 2560px) {
+    @media only screen and (max-width: 2560px) {
       .hero-image-section img{
         max-width: 1000px;
         width: auto;
@@ -822,13 +822,13 @@ color: #fff;
         max-width: 350px;
         width: auto;
         position: absolute;
-        top: 220px;
+        top: 230px;
         left: 230px;
       }
       .writeup5 img{
         max-width: 310px;
         width: auto;
-        top: 260px;
+        top: 270px;
       }
 
       
@@ -845,6 +845,7 @@ color: #fff;
       
       .section2 img{
         max-width: 350px;
+        width: auto;
         top: 90px;
         left: 250px;
       }
@@ -862,14 +863,14 @@ color: #fff;
     
     .section2 img{
       max-width: 350px;
-      top: 105px;
+      top: 90px;
       left: 250px;
     }
     .writeup5 img{
       max-width: 19%;
       width: auto;
       position: absolute;
-      top: 115px;
+      top: 100px;
       left: 280px;
     }
   }
