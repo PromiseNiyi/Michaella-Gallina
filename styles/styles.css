@@ -863,14 +863,14 @@ color: #fff;
     
     .section2 img{
       max-width: 350px;
-      top: 100px;
+      top: 110px;
       left: 250px;
     }
     .writeup5 img{
       max-width: 19%;
       width: auto;
       position: absolute;
-      top: 115px;
+      top: 125px;
       left: 280px;
     }
   }
