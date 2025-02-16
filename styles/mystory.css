@@ -232,6 +232,10 @@ h1,h2,h3{
 section{
     overflow-x: hidden;
 }
+li .active-now{
+  color: #e6012a;  
+}
+
 .level1{
     height: 90vh;
     display: flex;

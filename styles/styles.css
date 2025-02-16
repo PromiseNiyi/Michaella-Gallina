@@ -314,7 +314,7 @@ a{
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: all 0.5s ease 0s;
   }
 
   .menu-btn{
@@ -504,6 +504,7 @@ a{
   text-align: center;
   margin-top: 1em;
   font-size: 14pt;
+  transition: all 0.5s ease 0s;
 }
 
 .section2 a:hover {
@@ -659,17 +660,18 @@ margin-top: 1em;
 
 footer{
   height: 40vh;
+  width: 100%;
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding: 5em 5em 25px;
   color: #fff;
 }
 
 footer p{
-  margin-top: auto;
+  margin-top: 2em;
   font-size: 14px;
 }
 
@@ -677,12 +679,6 @@ footer p a{
   color: #fff;
 }
 
-.foot-menu{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
-}
 .foot-menu .foot-logo img{
   width: 25rem;
 
@@ -691,6 +687,14 @@ footer p a{
   text-decoration: none;
 
 }
+
+/* .foot-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .foot-menu .foot-cta ul{
   display: flex;
   text-decoration: none;
@@ -715,12 +719,9 @@ transition: all ease 0.5s;
 text-decoration: none;
 color: #fff;
 
-}
+} */
 
-.foot-menu .foot-logo{
 
-  margin-right: auto;
-}
 
 
 /* animate */
@@ -1009,6 +1010,37 @@ color: #fff;
     }
   }
 
+
+
+
+
+
+  @media only screen and (max-width: 1035px) {
+
+  .nav__links,
+  .cta {
+    display: none;
+  }
+
+  header {
+    min-height: 10vh;
+    height: auto;
+  }
+
+  .sidebar {
+    left: 0;
+  }
+
+
+  .menu {
+    display: initial;
+  }
+  .menu-btn {
+    display: initial;
+  }
+}
+
+
   @media only screen and (max-width: 990px) {
     .section2{
       padding: 3em;
@@ -1217,7 +1249,7 @@ color: #fff;
 
     .foot-menu{
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
 
      }
@@ -1240,7 +1272,7 @@ color: #fff;
     .foot-menu .foot-cta ul li{
       padding: 9px 25px;
       background-color: #e6012a;
-    margin-left: 0;
+      margin-left: 0;
     }
 
     

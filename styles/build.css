@@ -1,0 +1,376 @@
+p{
+    font-family: 'Mazzard H';
+    font-size: 16pt;
+}
+h1,h2,h3{
+    font-family: 'Remixa';
+}
+section{
+    overflow-x: hidden;
+}
+li .active-now{
+  color: #e6012a;  
+}
+
+.sect-1{
+    height: 90vh;
+    background-color: #e6012a;
+    background-image: url(/images/3-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.sect-1 h1{
+    color: #e8e2c5;
+    font-size: 8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sect-1 h1 span{
+font-weight: bolder;
+}
+
+.sect-1 a {
+    color: #e6012a;
+      padding: 15px 25px;
+      width: 250px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 14pt;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .sect-1 a:hover {
+    background-color: #dfdfdf;
+  }
+  .sect-2{
+    min-height: 40vh;
+    height: auto;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .sect-2 p{
+    width: 90%;
+  }
+
+  .sect-3{
+    min-height: 60vh;
+    height: auto;
+    background-color: #181818;
+    background-image: url(/images/3-bg2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .sect-3 P{
+    width: 60%;
+    color: #fff;
+  }
+
+  .sect-4{
+    min-height: 70vh;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding: 4em 2em;
+    gap: 2em;
+  }
+
+.small-card{
+    background-color: #dcd1cc;
+    max-width: 900px;
+    width: auto;
+    height: 40vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2em;
+    background-image: url(/images/card-bg.png);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.small-card p{
+    width: 60%;
+    text-align: left;
+}
+.small-card span{
+    font-weight: 600;
+    font-family: 'Mazzard H';
+    font-size: 16pt;
+}
+
+.under-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.under-card h2{
+    font-size: 4em;
+    font-weight: 700;
+    color: #e6012a;
+}
+.under-card P{
+    max-width: 900px;
+    width: auto;
+    text-align: center;
+}
+
+.sect-5{
+    min-height: 40vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6012a;
+    color: #fff;
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.sect-5 h2{
+    font-size: 4em;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.sect-5 P{
+    max-width: 900px;
+    width: auto;
+    text-align: center;
+}
+
+.sect-5 a {
+    color: #e6012a;
+      padding: 15px 25px;
+      width: 150px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 14pt;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .sect-5 a:hover {
+    background-color: #dfdfdf;
+  }
+.sect-6{
+    min-height: 60vh;
+    width: auto;
+    background-color: #e2d7d3;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4em;
+}
+
+.sect-6 h2{
+    font-size: 4em;
+    font-weight: 700;
+    color: #000000;
+    
+}
+.sect-6 p{
+    font-weight: 600;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.grid-card {
+    background: #e6012a;
+    padding: 2em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:30vh ;
+    height: auto;
+
+    
+}
+
+.grid-card p {
+    font-size: 16pt;
+    color: #fff;
+    font-weight: normal;
+}
+
+.grid-card span {
+    font-weight: 600;
+    font-family: 'Mazzard H';
+    font-size: 16pt;
+}
+
+
+.sect-7{
+    min-height: 70vh;
+    height: auto;
+    width: 100%;
+    background-color:#f7f964;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 4em 2em;
+}
+.sect-7 h2{
+    font-size: 4em;
+    font-weight: 700;
+    color: #e6012a;
+}
+
+.sect-7 P{
+
+    max-width: 1000px;
+    width: auto;
+    text-align: center;
+}
+.sect-7 span{
+    font-weight: 600;
+    font-family: 'Mazzard H';
+    font-size: 16pt; 
+}
+
+.sect-7 a {
+    color: #ffffff;
+      padding: 15px 25px;
+      width: 150px;
+    background-color: #e6012a;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 14pt;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .sect-7 a:hover {
+    background-color: #c40528;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------responsiveness START HERE------------ */
+@media only screen and (max-width: 2000px) {
+.sect-3{
+background-size: cover;
+}
+}
+@media only screen and (max-width: 900px) {
+    .sect-3 P{
+        width: 90%;
+        color: #fff;
+        text-align: justify;
+      }
+      .sect-3{
+        justify-content: center;
+      }
+}
+
+  @media only screen and (max-width: 800px) {
+    .sect-1 h1{
+        font-size: 4rem;
+    }
+    .sect-1{
+        background-position: center left;
+    }
+    .sect-2 p{
+     text-align: justify;
+      }
+      .sect-3{
+        background-size: cover;
+        background-position: center center;
+        justify-content: center;
+      }
+
+
+      .small-card{
+        background: 
+        linear-gradient(#dcd1cc, rgba(253, 253, 253, 0.658)), /* overlay with 50% black */
+        url('/images/card-bg.png') no-repeat center right;
+        background-size: cover;
+      }
+      .small-card p{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .under-card h2{
+        font-size: 3em;
+    }
+    .sect-5 h2{
+        font-size: 3em;
+    }
+    .sect-6 h2{
+        font-size: 3em;
+    }
+    .sect-7 h2{
+        font-size: 3em;
+    }
+    .sect-7 p{
+        text-align: justify;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+}
