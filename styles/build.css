@@ -82,7 +82,7 @@ font-weight: bolder;
   }
 
   .sect-3 P{
-    width: 60%;
+    width: 55%;
     color: #fff;
   }
 
@@ -190,6 +190,10 @@ font-weight: bolder;
     min-height: 60vh;
     width: auto;
     background-color: #e2d7d3;
+            background: 
+        linear-gradient(#e2d7d3f8, #e2d7d3ea), /* overlay with 50% black */
+        url('/images/5624.jpg') no-repeat center center;
+        background-size: cover;
     padding: 2em;
     display: flex;
     flex-direction: column;
@@ -314,18 +318,36 @@ font-weight: bolder;
 background-size: cover;
 }
 }
+@media only screen and (max-width: 1000px) {
+.sect-3{
+  background-position: center right;
+}
+.sect-3 P{
+  width: 100%;
+}
+}
+
 @media only screen and (max-width: 900px) {
     .sect-3 P{
         width: 90%;
         color: #fff;
-        text-align: justify;
+        text-align: center;
       }
       .sect-3{
+
         justify-content: center;
       }
+      .small-card{
+         background-size: cover;
+    }
+    
 }
 
   @media only screen and (max-width: 800px) {
+    p{
+      font-size: 14pt;
+      line-height: 1.7;
+    }
     .sect-1 h1{
         font-size: 4rem;
     }
@@ -333,13 +355,14 @@ background-size: cover;
         background-position: center left;
     }
     .sect-2 p{
-     text-align: justify;
+     text-align: center;
       }
       .sect-3{
         background-size: cover;
         background-position: center center;
         justify-content: center;
       }
+
 
 
       .small-card{
@@ -366,7 +389,7 @@ background-size: cover;
         font-size: 3em;
     }
     .sect-7 p{
-        text-align: justify;
+        text-align: center;
     }
 
 }

@@ -1,7 +1,7 @@
 .carousel {
   overflow: hidden;
   width: 75vw;
-  max-width: 950px;
+  max-width: 85%;
   background: #e6012a;
   padding: 20px 0;
   position: relative;

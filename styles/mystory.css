@@ -250,6 +250,7 @@ li .active-now{
 }
 
 .level1 .Lcontent1{
+    width: 60%;
   margin-left: 5em;
 }
 
@@ -457,7 +458,7 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 30px;
 }
 .level6 h2{
     font-size: 4em;
@@ -581,7 +582,7 @@ text-align: center;
 .level2{
     justify-content: center;
     background: 
-    linear-gradient(#ffffffa4, #ffffffbd), /* overlay with 50% black */
+    linear-gradient(#ffffff, #ffffff), /* overlay with 50% black */
     url('/images/headshot\ 3.png') no-repeat center center;
     background-size: cover;
 }
@@ -589,16 +590,19 @@ text-align: center;
 
 @media only screen and (max-width: 600px) {
 .level1{
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
     background: 
-    linear-gradient(#e6012b1f, #ec1a406c), /* overlay with 50% black */
+    linear-gradient(#e6012b00, #ec1a403b, #ec1a40dc), /* overlay with 50% black */
     url('/images/1.png') no-repeat center center;
     background-size: cover;
     background-position: top  left;
     justify-content: center;
 }
     .level1 .Lcontent1{
-  margin-left: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 25em;
 }
 
 .level1 p{
@@ -620,7 +624,7 @@ text-align: center;
 .Lcontent3-1{
     flex-direction: column;
     background: 
-    linear-gradient(#f6f85da4, #ffffffbd), /* overlay with 50% black */
+    linear-gradient(#f6f85d, #f8fa72), /* overlay with 50% black */
     url('/images/3.png') no-repeat center center;
     background-size: cover;
 }
@@ -643,18 +647,21 @@ width: 100%;
 
 .Lcontent3-2{
     background: 
-    linear-gradient(#e6012ba6, #e6012a), /* overlay with 50% black */
+    linear-gradient(#e6012b, #e6012a), /* overlay with 50% black */
     url('/images/headshot\ 5.png') no-repeat center center;
     background-size: cover;
 }
 .level3 img{
-    width: 35em;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 20em;
+    position: initial;
+    text-align: center;
+    /* transform: translateX(-50%); */
     bottom: 0;
     z-index: 0;
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .level4{
@@ -679,10 +686,10 @@ width: 100%;
     height: auto;
     justify-content: center;
     background:     
-    linear-gradient(#f6f964c7, #f6f9649f), /* overlay with 50% black */
+    linear-gradient(#f6f964, #f6f964), /* overlay with 50% black */
     url('/images/headshot\ 7.png') no-repeat center left;
     background-size: cover;
-    padding: 2em;
+    padding: 25px;
 }
 .level6 h2{
     font-size: 3em;
@@ -696,6 +703,33 @@ width: 100%;
       transform: none;
     }
   }
+
+  @media (max-width: 700px){
+    .Lcontent2{
+        text-align: center;
+    }
+    .Lcontent2 p{
+        font-size: 14pt;
+        line-height: 1.7;
+    }
+    .Lcontent3 .heading h2, .Lcontent3 .heading h3 {
+        text-align: center;
+    }
+    .Lcontent3 .writesup p{
+        text-align: center;
+        font-size: 14pt;
+        line-height: 1.7;
+  }
+  .Lcontent3 .inside p{
+        text-align: center;
+  }
+  .level4 p{
+    text-align: center;
+  }
+  .level5{
+    text-align: center;
+  }
+}
 
 
 @media only screen and (max-width: 450px) {
@@ -711,6 +745,6 @@ width: 100%;
 }
 .level6{
 
-    padding: 25px 10px;
+    padding: 25px;
 }
 }
