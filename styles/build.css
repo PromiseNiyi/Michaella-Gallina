@@ -373,11 +373,14 @@ background-size: cover;
       }
       .small-card p{
         width: 100%;
-        text-align: justify;
+        text-align: center;
     }
 
     .under-card h2{
         font-size: 3em;
+    }
+    .sect-5{
+      padding: 6em 2em;
     }
     .sect-5 h2{
         font-size: 3em;
