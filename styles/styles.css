@@ -654,6 +654,9 @@ margin-top: 1em;
   padding: 25px;
   overflow-x: hidden;
 }
+.section6 a{
+  text-decoration: none;
+}
 
 .writeup6 h2{
   font-size: 6em;
@@ -668,6 +671,15 @@ margin-top: 1em;
   width: 500px;
   height: 300px;
   border-radius: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  /* margin: auto; */
+}
+
+video {
+  width: 100%;
+  border-radius: 25px;
+  display: block;
 }
 
 footer{
