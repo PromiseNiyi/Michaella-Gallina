@@ -291,6 +291,10 @@ a{
     text-decoration: none;
   }
 
+  .overlay__content a img{
+    width: 250px;
+  }
+
   .nav__links li {
     padding: 0px 20px;
   }
@@ -669,7 +673,7 @@ margin-top: 1em;
 .video{
   background-color: black;
   width: 500px;
-  height: 300px;
+  height: 250px;
   border-radius: 25px;
   overflow: hidden;
   cursor: pointer;
@@ -677,6 +681,7 @@ margin-top: 1em;
 }
 
 video {
+
   width: 100%;
   border-radius: 25px;
   display: block;
@@ -989,7 +994,7 @@ color: #fff;
        .video{
         background-color: black;
         width: 400px;
-        height: 300px;
+        height: 200px;
         border-radius: 25px;
       }
   
@@ -1417,7 +1422,8 @@ color: #fff;
   @media (max-width: 510px) {
 
     .video{
-      width: 350px;
+      width: 370px;
+      height: 185px;
     }
 
   }
@@ -1467,6 +1473,7 @@ color: #fff;
      }
      .video{
       width: 300px;
+      height: 150px;
     }
 
 
