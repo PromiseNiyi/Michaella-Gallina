@@ -1362,8 +1362,8 @@ color: #fff;
      
     }
     .main{
-       min-height: 50vh;
-       height: auto;
+      min-height: 50vh;
+      height: auto;
       flex-direction: column;
       padding: 7em 25px 0 25px;
       justify-content: space-between;
