@@ -38,6 +38,8 @@ li .active-now{
     align-items: center;
     font-family: 'Mazzard H';
     font-size: 16pt;
+    padding-top: 2em;
+    padding-bottom: 3em;
 }
 input{
     font-family: 'Mazzard H';
@@ -103,6 +105,18 @@ input[type="checkbox"]:checked + label {
     border: 1px solid #aaa;
     outline: none;
 }
+
+.fixed-size {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    font-size: 16pt;
+    font-family: 'Mazzard H';
+    font-size: 14pt;
+    padding: 15px;
+    line-height: 2;
+
+  }
 
 .submit-button {
     width: 200px;

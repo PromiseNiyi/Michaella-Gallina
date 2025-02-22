@@ -13,7 +13,8 @@ li .active-now{
 }
 
 .sect-1{
-    height: 90vh;
+    min-height: 90vh;
+    height: fit-content;
     background-color: #e6012a;
     background-image: url(/images/3-bg.png);
     background-repeat: no-repeat;
@@ -23,14 +24,36 @@ li .active-now{
     flex-direction: column;
     justify-content: center;
     align-items:center ;
+    padding: 2em;
 }
 
 .sect-1 h1{
     color: #e8e2c5;
     font-size: 8rem;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
 }
+
+.under-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.under-card h2{
+  font-size: 4em;
+  font-weight: 400;
+  color: #e8e2c5;
+  text-align: center;
+}
+.under-card P{
+  color: #fff;
+  max-width: 900px;
+  width: 90%;
+  text-align: center;
+  margin-top: 1em;
+}
+
 
 .sect-1 h1 span{
 font-weight: bolder;
@@ -111,7 +134,7 @@ font-weight: bolder;
     padding: 2em;
     background-image: url(/images/card-bg.png);
     background-position: center right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
@@ -126,21 +149,6 @@ font-weight: bolder;
     font-size: 16pt;
 }
 
-.under-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.under-card h2{
-    font-size: 4em;
-    font-weight: 700;
-    color: #e6012a;
-}
-.under-card P{
-    max-width: 900px;
-    width: auto;
-    text-align: center;
-}
 
 .sect-5{
     min-height: 40vh;
@@ -318,6 +326,33 @@ font-weight: bolder;
 background-size: cover;
 }
 }
+
+
+@media only screen and (max-width: 1500px) {
+.sect-1 h1{
+
+  font-size: 6rem;
+
+}
+
+
+.under-card h2{
+font-size: 3em;
+}
+}
+
+@media only screen and (max-width: 1080px) {
+  .sect-1 h1{
+  
+    font-size: 5rem;
+  
+  }
+  
+ 
+  }
+  
+
+
 @media only screen and (max-width: 1000px) {
 .sect-3{
   background-position: center right;
@@ -328,6 +363,18 @@ background-size: cover;
 }
 
 @media only screen and (max-width: 900px) {
+
+  .sect-1 h1{
+
+    font-size: 4rem;
+  
+  }
+  
+  
+  .under-card h2{
+  font-size: 2em;
+  }
+
     .sect-3 P{
         width: 90%;
         color: #fff;
@@ -376,10 +423,7 @@ background-size: cover;
         text-align: center;
     }
 
-    .under-card h2{
-        font-size: 3em;
-    }
-    .sect-5{
+     .sect-5{
       padding: 6em 2em;
     }
     .sect-5 h2{
@@ -397,6 +441,19 @@ background-size: cover;
 
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
+b,p{
+  font-size: 14pt;
+}
+.sect-1 h1{
+
+  font-size: 2.5rem;
+
+}
+
+
+.under-card h2{
+font-size: 1.5em;
+}
 
 }
