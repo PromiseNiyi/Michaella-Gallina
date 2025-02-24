@@ -13,7 +13,7 @@ li .active-now{
 }
 
 .sect-1{
-    min-height: 90vh;
+    min-height: 60vh;
     height: fit-content;
     background-color: #e6012a;
     background-image: url(/images/3-bg.png);
@@ -79,7 +79,7 @@ font-weight: bolder;
     background-color: #dfdfdf;
   }
   .sect-2{
-    min-height: 40vh;
+    min-height: 30vh;
     height: auto;
     padding: 2em;
     display: flex;
@@ -105,7 +105,7 @@ font-weight: bolder;
   }
 
   .sect-3 P{
-    width: 55%;
+    width: 50%;
     color: #fff;
   }
 

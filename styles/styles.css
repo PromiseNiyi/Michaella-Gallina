@@ -241,7 +241,7 @@ html {
 }
 
 p, b{
-  font-size: 16pt;
+  font-size: 14pt;
   line-height: 2;
   letter-spacing: .5px;
   font-family: Mazzard H;
@@ -448,7 +448,7 @@ a{
   
 }
 .main-content{
-  width: 60%;
+  width: 90%;
 }
 .main-writeup{
   justify-content: center;
@@ -461,10 +461,9 @@ a{
   padding-left: 0;
 
 }
-.main-content p{
-  font-size: 16pt;
+.main-content p , .main-content b{
+  font-size: 14px;
   line-height: 2;
-  letter-spacing: .5px;
   text-align: center;
 }
 .hero-image-section{
@@ -537,7 +536,7 @@ a{
 }
 
 .section3{
-  height: 40vh;
+  height: 30vh;
   background-color: #e6012a;
   display: flex;
   justify-content: center;
@@ -563,7 +562,8 @@ a{
 
 .writeup4{
   height: 100%;
-  width: 65%;
+  width: 55%;
+  margin-right: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -575,7 +575,7 @@ a{
 
 
 .writeup4 p{
-width: 1000px;
+width: 900px;
 }
 
 .section4 .writeup4 a{
@@ -918,7 +918,7 @@ color: #fff;
     @media only screen and (max-width: 1600px) {
     .writeup4{
       height: 100%;
-      width: 70%;
+      width: 65%;
     }
 
   }
@@ -985,7 +985,7 @@ color: #fff;
       padding: 25px;
       align-items: center;
       background: 
-        linear-gradient(rgba(255, 255, 255, 0.979), rgba(253, 253, 253, 0.658)), /* overlay with 50% black */
+        linear-gradient(rgba(255, 255, 255, 0.979), rgba(253, 253, 253, 0.932)), /* overlay with 50% black */
         url('/images/headshot\ 2.png') no-repeat center center;
         background-size: cover;
         background-position: top  center;
@@ -993,6 +993,7 @@ color: #fff;
         background-attachment: fixed;
     }
     .writeup4{
+      margin-right: 0em;
       width: 100%;
       padding: 5px 15px;
     }
