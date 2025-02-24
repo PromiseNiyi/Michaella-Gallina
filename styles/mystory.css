@@ -552,13 +552,10 @@ background-size: cover;
 
 
 
-
-
-
 }
 @media only screen and (max-width: 1500px) {
 .level3 img{
-    right: -50px;
+    right: 0px;
 }
 }
 
