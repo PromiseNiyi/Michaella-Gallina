@@ -400,7 +400,7 @@ color: #fff;
 .level3 img{
     width: 25em;
     position: absolute;
-    right: -50px;
+    right: 10px;
     bottom: 0;
 }
 .level4{
@@ -418,7 +418,7 @@ color: #fff;
 }
 
 .level4 p{
-    width: 1000px;
+    width: 900px;
 }
 .level5{
     min-height: 40vh;
@@ -505,7 +505,7 @@ text-align: center;
 @media only screen and (max-width: 1250px) {
 .level4{
 background: 
-linear-gradient(#ffffffa4, #ffffffbd), /* overlay with 50% black */
+linear-gradient(#ffffffe5, #ffffffd2), /* overlay with 50% black */
 url('/images/5.png') no-repeat center center;
 background-size: cover;
 
@@ -558,7 +558,7 @@ background-size: cover;
 }
 @media only screen and (max-width: 1500px) {
 .level3 img{
-    right: -100px;
+    right: -50px;
 }
 }
 
@@ -610,10 +610,10 @@ background-size: cover;
         min-height: 50vh;
         height: auto;
         justify-content: center;
-        background: 
-        linear-gradient(#ffffffa4, #ffffffbd), /* overlay with 50% black */
+        /* background: 
+        linear-gradient(#ffffffa4, #ffffffbd),
         url('/images/5.png') no-repeat center center;
-        background-size: cover;
+        background-size: cover; */
         
     }
 
