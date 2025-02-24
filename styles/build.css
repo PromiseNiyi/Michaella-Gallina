@@ -24,7 +24,7 @@ li .active-now{
     flex-direction: column;
     justify-content: center;
     align-items:center ;
-    padding: 2em;
+    padding: 1em 2em;
 }
 
 .sect-1 h1{
