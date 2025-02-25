@@ -13,7 +13,8 @@ li .active-now{
 }
 
 .chat-sect{
-    height: 20vh;
+    min-height: 30vh;
+    height: fit-content;
     background-color: #e6012a;
     background-image: url(/images/3-bg.png);
     background-size: cover;
@@ -23,12 +24,21 @@ li .active-now{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1.5em;
     }
 .chat-sect h2{
     color: #e8e2c5;
     font-size: 4rem;
     font-weight: 400;
     text-align: center;
+}
+
+.chat-sect p{
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+    max-width: 900px;
+    width: 80%;
 }
 .form{
     min-height: 70vh;
