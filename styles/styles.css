@@ -456,13 +456,13 @@ a{
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* width: 60%; */
+  width: 90%;
   padding-right: 40rem;
   padding-left: 0;
 
 }
 .main-content p , .main-content b{
-  font-size: 14px;
+  font-size: 14pt;
   line-height: 2;
   text-align: center;
 }
@@ -628,17 +628,23 @@ margin-top: 1em;
   left: 280px;
 }
 
-.writeup5 h2{
-  font-size: 3em;
+.writeup5 h2, .writeup5 .head-span{
+    font-size: 3em;
   line-height: 1.5em;
+  font-family: 'Remixa';
 }
+.writeup5 .head-span{
+color: #e6012a;
+font-size: 1em;
+
+}
+
 .writeup5 p{
   font-size: 16pt;
   font-family: 'Mazzard H';
   
-  
 }
-.writeup5 span{
+.writeup5 .text-span{
   color: #e6012a;
   font-family: 'Mazzard H';
   font-weight: 600;
