@@ -1,0 +1,147 @@
+p, li, strong{
+    font-family: 'Mazzard H';
+    font-size: 16pt;
+}
+h1,h2,h3{
+    font-family: 'Remixa';
+}
+section{
+    overflow-x: hidden;
+}
+li .active-now{
+  color: #e6012a; 
+  list-style: none; 
+}
+
+h2{
+    font-size: 3em;
+}
+
+.land{
+    min-height: 60vh;
+    height: fit-content;
+    background-color: #e6012a;
+    background-image: url(/images/3-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    
+
+}
+.land h1{
+    color: #e8e2c5;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.land p{
+    max-width: 1200px;
+    width: 80%;
+}
+
+.attributes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40vh;
+    height: fit-content;
+    padding: 5rem 2em;
+    gap: 5em;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* min-height: 40vh; */
+    height: fit-content;
+    max-width: 1600px;
+    width: 90%;
+    height: fit-content;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    background-color: #e6012a;
+    
+}
+.first-section h2{
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    padding: 15px 25px;
+    background-color: #1b1b1b;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.first-section .content{
+    width: 95%;
+    padding: 50px;
+    margin-top: 3em;
+    color: #fff;
+}
+
+.sectioner li{
+    list-style: none;
+    line-height: 2;
+}
+
+.last-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em 2em 5em;
+}
+.last-text p{
+    width: 1500px;
+    max-width: 85%;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+    }
+    .attributes{
+    
+        padding: 5rem 5px;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 14pt;
+    }
+
+    .first-section h2{
+        transform: translateX(-50%);
+        left: 50%;
+        width: 90%;
+    }
+
+    .first-section .content{
+        width:100%;
+        padding: 25px;
+        text-align: center;
+        /* font-size: 1pt; */
+    }
+.content p, .sectioner li{
+        font-size: 14pt;
+    }
+
+
+}
