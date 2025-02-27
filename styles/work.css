@@ -108,9 +108,61 @@ h2{
 }
 
 
+.bg1{
+    background: 
+    linear-gradient(to right, #e6012b, #e6012ba1), /* overlay with 50% black */
+    url('/images/speak.png') no-repeat center right;
+    background-size: contain;
+}
+
+.bg2{
+    background: 
+    linear-gradient(to right, #e6012b, #e6012ba1), /* overlay with 50% black */
+    url('/images/coach.png') no-repeat center right;
+    background-size: contain;
+}
+.bg3{
+    background: 
+    linear-gradient(to right, #e6012b, #e6012ba1), /* overlay with 50% black */
+    url('/images/Selfstudy.png') no-repeat center right;
+    background-size: contain;
+}
+.bg4{
+    background: 
+    linear-gradient(to right, #e6012b, #e6012ba1), /* overlay with 50% black */
+    url('/images/Media\ Enq.png') no-repeat center right;
+    background-size: contain;
+}
 
 
 
+@media (max-width: 850px) {
+    .bg1{
+        background: 
+        linear-gradient(to right, #e6012b, #e6012bde), /* overlay with 50% black */
+        url('/images/speak.png') no-repeat center right;
+        background-size: cover;
+    }
+    
+    .bg2{
+        background: 
+        linear-gradient(to right, #e6012b, #e6012bde), /* overlay with 50% black */
+        url('/images/coach.png') no-repeat center right;
+        background-size: cover;
+    }
+    .bg3{
+        background: 
+        linear-gradient(to right, #e6012b, #e6012bde), /* overlay with 50% black */
+        url('/images/Selfstudy.png') no-repeat center right;
+        background-size: cover;
+    }
+    .bg4{
+        background: 
+        linear-gradient(to right, #e6012b, #e6012bde), /* overlay with 50% black */
+        url('/images/Media\ Enq.png') no-repeat center right;
+        background-size: cover;
+    }
+}
 
 @media (max-width: 768px) {
     section {

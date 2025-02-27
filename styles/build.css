@@ -91,6 +91,10 @@ font-weight: bolder;
     width: 90%;
   }
 
+  .sect-2 b{
+    font-size: 16pt;
+  }
+
   .sect-3{
     min-height: 60vh;
     height: auto;
@@ -391,7 +395,7 @@ font-size: 3em;
 }
 
   @media only screen and (max-width: 800px) {
-    p{
+    p,b{
       font-size: 14pt;
       line-height: 1.7;
     }
@@ -408,6 +412,9 @@ font-size: 3em;
         background-size: cover;
         background-position: center center;
         justify-content: center;
+      }
+      .sect-2 b{
+        font-size: 14pt;
       }
 
 
