@@ -42,7 +42,7 @@ h2{
     margin-bottom: 25px;
 }
 .land p{
-    max-width: 1200px;
+    max-width: 1100px;
     width: 80%;
 }
 
@@ -109,7 +109,8 @@ h2{
     max-width: 85%;
 }
 
-.last-text a {
+
+.last-text .button {
     color: #ffffff;
       padding: 15px 25px;
       /* width: 150px; */
@@ -125,9 +126,15 @@ h2{
     transition: all 0.5s ease 0s;
   }
   
-  .last-text a:hover {
+  .last-text .button:hover {
     background-color: #c40528;
   }
+
+  .last-text .in-link{
+    background: none;
+    color: #e6012a;
+}
+
 
 
 .bg1{
