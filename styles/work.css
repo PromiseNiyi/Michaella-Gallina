@@ -97,15 +97,37 @@ h2{
 
 .last-text{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 2em 2em 5em;
+    width: 100%;
 }
 .last-text p{
     width: 1500px;
     max-width: 85%;
 }
+
+.last-text a {
+    color: #ffffff;
+      padding: 15px 25px;
+      /* width: 150px; */
+    background-color: #e6012a;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 14pt;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .last-text a:hover {
+    background-color: #c40528;
+  }
 
 
 .bg1{
