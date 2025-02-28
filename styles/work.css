@@ -93,6 +93,7 @@ h2{
 .sectioner li{
     /* list-style: none; */
     line-height: 2;
+    margin-left: 1em;
 }
 
 .last-text{
@@ -204,9 +205,14 @@ h2{
     h2{
         font-size: 1.5em;
     }
-    p{
+    p,   h2, .sectioner li{
         font-size: 14pt;
+        line-height: 1.5;
     }
+    .sectioner li{
+        margin-left: 1.5em;
+    }
+
 
     .first-section h2{
         transform: translateX(-50%);
