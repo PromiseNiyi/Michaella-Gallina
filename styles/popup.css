@@ -21,7 +21,7 @@
     text-align: center;
     max-width: 500px;
     width: 90%;
-    min-height: 500px;
+    min-height: 550px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -35,14 +35,17 @@
     display: none;
 }
 .popup p {
-    margin: 15px 0;
+    margin: 0;
     font-family: 'Mazzard H';
+    width: 85%;
+    line-height: 1.5;
 }
 .popup input {
     width: 90%;
     padding: 15px 25px;
     margin: 10px 0 2em;
     border: 1px solid #ccc;
+    outline: none;
     border-radius: 50px;
     font-family: 'Mazzard H';
 }
@@ -71,13 +74,20 @@
     font-size: 3em;
 }
 
+.popup #successMessage{
+    margin-top: 5px;
+}
+
 
 @media screen and (max-width:800px) {
     
     .popup {
 
-        min-height: 500px;
+        min-height: 550px;
 
     }
 
+    .popup p{
+        width: 100%;
+    }
 }

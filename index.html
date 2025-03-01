@@ -80,7 +80,7 @@
             <div class="popup">
                 <button class="close-btnn" onclick="closePopup()">&times;</button>
                 <img src="https://via.placeholder.com/300x150" alt="Popup Image">
-                <p>Subscribe to our newsletter for updates!</p>
+                <p>Get hot takes on financial freedom, and be the first to know when new material is dropping! </p>
                 <input type="email" id="emailInput" placeholder="Enter your email" required>
                 <button onclick="submitForm()">Submit</button>
                 <p id="successMessage" style="display: none; color: green;">Successfully Submitted!</p>
@@ -264,7 +264,7 @@
                 let email = document.getElementById('emailInput').value;
                 if (email) {
                     document.getElementById('successMessage').style.display = 'block';
-                    setTimeout(closePopup, 2000); // Close after showing success message
+                    setTimeout(closePopup, 3000); // Close after showing success message
                 }
             }
             setTimeout(showPopup, 5000); // Show popup after 5 seconds
