@@ -1,0 +1,83 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+}
+.popup {
+    background: white;
+    background-image: url(/images/popup.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 25px 50px;
+    border-radius: 25px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transition: all ease 0.5s;
+}
+.popup img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    display: none;
+}
+.popup p {
+    margin: 15px 0;
+    font-family: 'Mazzard H';
+}
+.popup input {
+    width: 90%;
+    padding: 15px 25px;
+    margin: 10px 0 2em;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-family: 'Mazzard H';
+}
+.popup button {
+    padding: 15px 35px;
+    border: none;
+    background: #e6012a;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 40%;
+    font-family: 'Mazzard H';
+}
+.popup .close-btnn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    color: rgb(255, 0, 0);
+    border: none;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    aspect-ratio: 1;
+    font-size: 3em;
+}
+
+
+@media screen and (max-width:800px) {
+    
+    .popup {
+
+        min-height: 500px;
+
+    }
+
+}
